@@ -1,0 +1,12 @@
+--輸入左圖BMP檔名 Input Left BMP File Name
+MF3-1_~1.bmp
+--輸入左圖BMP檔名 Input Right BMP File Name
+MF3-2_~1.bmp
+--配對特徵點文字檔檔名 Input Matched Feature Points Txt File Name
+1_2_Match.txt
+--輸出BMP圖檔檔名 Output BMP File Name
+1_2_Matched.bmp
+--合併圖檔時，右圖起始點座標 Right BMP StartingPoint
+0,100
+--連接線段之顏色(B,G,R)(0~255)
+255,0,255

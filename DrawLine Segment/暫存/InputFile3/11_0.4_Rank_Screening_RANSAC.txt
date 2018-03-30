@@ -1,0 +1,8 @@
+--Number  of Matched Patches Pairs :
+5
+--Matched Patches Pairs Set:
+MPPS(  1):	LP( 3)=( 47, 64)	RP( 4)=( 37, 35)	Score= 1003.000000
+MPPS(  2):	LP( 6)=(113, 30)	RP( 9)=(152, 42)	Score= 1407.000000
+MPPS(  3):	LP( 5)=( 89, 30)	RP(10)=(164, 37)	Score= 2200.000000
+MPPS(  4):	LP( 8)=(165, 32)	RP( 7)=(119, 54)	Score= 2807.000000
+MPPS(  5):	LP( 9)=(161, 52)	RP( 2)=( 21, 58)	Score= 2990.000000

@@ -1,0 +1,12 @@
+--輸入BMP圖檔檔名 Input BMP File Name
+MF3-13_~1.bmp
+--特徵點文字檔 PointSetName
+13.txt
+--輸出BMP圖檔檔名 Output BMP File Name
+MF3-13_~1_Marked.bmp
+--標註方框之寬度 Mark Square Region Width
+17
+--標註方框之高度 Mark Square Region Height
+5
+--標註方框之顏色 Mark Square Region Color(B,G,R)
+255,0,255

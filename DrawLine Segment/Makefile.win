@@ -1,0 +1,37 @@
+# Project: DrawLineSegment
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = main.o ReadFeaturePointTxt.o DrawLineSegment.o ReadInputCoefficientTxt.o
+LINKOBJ  = main.o ReadFeaturePointTxt.o DrawLineSegment.o ReadInputCoefficientTxt.o
+LIBS     = -L"C:/Users/user/Desktop/DevCppPortable/MinGW64/lib32" -L"C:/Users/user/Desktop/DevCppPortable/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc BMP824Convolution_G1h_G2h_G3LibV06/BMP_Convolution8_Lib.a -m32
+INCS     = -I"C:/Users/user/Desktop/DevCppPortable/MinGW64/include" -I"C:/Users/user/Desktop/DevCppPortable/MinGW64/x86_64-w64-mingw32/include" -I"C:/Users/user/Desktop/DevCppPortable/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"./BMP824Convolution_G1h_G2h_G3LibV06"
+CXXINCS  = -I"C:/Users/user/Desktop/DevCppPortable/MinGW64/include" -I"C:/Users/user/Desktop/DevCppPortable/MinGW64/x86_64-w64-mingw32/include" -I"C:/Users/user/Desktop/DevCppPortable/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Users/user/Desktop/DevCppPortable/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"./BMP824Convolution_G1h_G2h_G3LibV06"
+BIN      = DrawLineSegment.exe
+CXXFLAGS = $(CXXINCS) -m32
+CFLAGS   = $(INCS) -m32
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.c
+	$(CC) -c main.c -o main.o $(CFLAGS)
+
+ReadFeaturePointTxt.o: ReadFeaturePointTxt.c
+	$(CC) -c ReadFeaturePointTxt.c -o ReadFeaturePointTxt.o $(CFLAGS)
+
+DrawLineSegment.o: DrawLineSegment.c
+	$(CC) -c DrawLineSegment.c -o DrawLineSegment.o $(CFLAGS)
+
+ReadInputCoefficientTxt.o: ReadInputCoefficientTxt.c
+	$(CC) -c ReadInputCoefficientTxt.c -o ReadInputCoefficientTxt.o $(CFLAGS)

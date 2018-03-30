@@ -1,0 +1,6 @@
+--Nuame of Matched Patches Pairs :
+3
+--Matched Patches Pairs Set:
+MPPS(  1):	LP( 1)=( 21, 15)	RP( 2)=( 8, 76)	Score= 0
+MPPS(  2):	LP( 2)=( 122, 20)	RP( 3)=( 111, 23)	Score= 0
+MPPS(  3):	LP( 3)=( 130, 63)	RP( 5)=( 148, 52)	Score= 0
